@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  background-color: #eee;
+}
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1512px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px 80px 141px 80px;
+  background-color: #fff;
+}
+
+.navi {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.link {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+}
+.title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 87px;
+  line-height: 90px;
+  color: #000000;
+}
+
+.content {
+  display: flex;
+  margin-top: 128px;
+  gap: 54px;
+}
+
+.info {
+}
+
+.description {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 29px;
+  line-height: 45px;
+  color: #6b6868;
+  margin-top: 40px;
+}
+
+.buttons {
+  margin-top: 104px;
+  display: flex;
+  gap: 38px;
+}
+
+.btn {
+  display: inline-block;
+  border: 2px solid #000000;
+  background: transparent;
+  padding: 30px 50px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 24px;
+  color: #000000;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.btn-secondary {
+    background-color: #000;
+    color: #fff;
+}
+
+.avatar {
+  max-width: 497px;
+}
